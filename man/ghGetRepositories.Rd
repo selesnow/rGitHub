@@ -12,7 +12,6 @@ ghGetRepositories(user = NULL, token = NULL)
 }
 
 \arguments{
-  \item{user}{
   \item{user}{Your GitHun login}
   \item{token}{Your GitHub API token, you can get him this link - https://github.com/settings/tokens, for more ditail go this link https://developer.github.com/v3/oauth_authorizations/#create-a-new-authorization}
 }
