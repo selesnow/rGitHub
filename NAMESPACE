@@ -1,3 +1,4 @@
 exportPattern("^[[:alpha:]]+")
 importFrom(httr,GET)
 importFrom(httr,stop_for_status)
+importFrom(httr,content)
