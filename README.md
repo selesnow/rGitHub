@@ -27,7 +27,6 @@
 ### Аргументы функции ghGetRepositories
 
 + user - Ваш логин на GitHub
-
 + token - Ваш токен доступа к API GitHub.
 
 ### Результирующий дата фрейм возвращаемый функцией ghGetRepositories
@@ -50,6 +49,17 @@
 
 ### Пример использования функции ghGetRepositories
 
-  `git_repos <- ghGetRepositories(user = "selesnow",  token = "abcde12345") 
+`git_repos <- ghGetRepositories(user = "selesnow",  token = "abcde12345") `
+  
+## Получаем список основную статистику по показам и уникальным показам по репозиторию
 
+Для того, что бы получить количество показов и количество уникальных показов в разрезе дат за последние 14 дней есть функция `ghGetView`.
+
+### Аргументы функции ghGetView
+
++ user - Ваш логин на GitHub
++ repos - Название репозитория
++ token - Ваш токен доступа к API GitHub
+
+### Результирующий дата фрейм возвращаемый функцией ghGetView
 
