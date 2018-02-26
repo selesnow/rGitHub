@@ -1,3 +1,11 @@
+<head>
+<link rel="shortcut icon" type="image/x-icon" href="as.ico">
+</head>
+
+<p align="center">
+<a href="https://selesnow.github.io/"><img src="https://alexeyseleznev.files.wordpress.com/2017/03/as.png" height="80"></a>
+</p>
+
 # rGitHub - Пакет rGitHub предназначен для получения статистики по репозиториям на GitHub на языке R.
 
 Все функции пакета предназначены для работы с API v3 GitHub.
