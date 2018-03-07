@@ -14,6 +14,29 @@
 <a href="https://selesnow.github.io/"><img src="https://alexeyseleznev.files.wordpress.com/2017/03/as.png" height="80"></a>
 </p>
 
+<table>
+    <tr>
+      <td>
+        <a href="https://selesnow.github.io/ryandexdirect/">ryandexdirect</a>
+      </td>
+      <td>
+        <a href="https://selesnow.github.io/rfacebookstat/">rfacebookstat</a>
+      </td>
+      <td>
+        <a href="https://selesnow.github.io/rvkstat/">rvkstat</a>
+      </td>
+      <td>
+        <a href="https://selesnow.github.io/rmytarget/">rmytarget</a>
+      </td>
+      <td>
+        <a href="https://selesnow.github.io/rmixpanel/">rmixpanel</a>
+      </td>
+      <td>
+        <a href="https://selesnow.github.io/getProxy/">getProxy</a>
+      </td>
+    </tr>
+</table>
+
 # rGitHub - Пакет rGitHub предназначен для получения статистики по репозиториям на GitHub на языке R.
 
 Все функции пакета предназначены для работы с API v3 GitHub.
