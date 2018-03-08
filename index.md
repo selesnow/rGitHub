@@ -181,28 +181,22 @@
      <table>
     <tr>
       <td>
-        <a href="https://selesnow.github.io/ryandexdirect/">ryandexdirect</a>
+        <a href="https://facebook.com/selesnow/">Facebook</a>
       </td>
       <td>
-        <a href="https://selesnow.github.io/rfacebookstat/">rfacebookstat</a>
+        <a href="https://vk.com/selesnow">Vkontakte</a>
       </td>
       <td>
-        <a href="https://selesnow.github.io/rvkstat/">rvkstat</a>
+        <a href="https://linkedin.com/in/selesnow">Linkedin</a>
       </td>
       <td>
-        <a href="https://selesnow.github.io/rmytarget/">rmytarget</a>
+        <a href="https://alexeyseleznev.wordpress.com/">Blog</a>
       </td>
       <td>
-        <a href="https://selesnow.github.io/rmixpanel/">rmixpanel</a>
+        <a href="https://github.com/selesnow/">GitHub</a>
       </td>
       <td>
-        <a href="https://selesnow.github.io/getProxy/">getProxy</a>
-      </td>
-      <td>
-        <a href="https://selesnow.github.io/rGitHub/">rGitHub</a>
-      </td>
-      <td>
-        <a href="https://selesnow.github.io/news/">NEWS</a>
+        <a href="https://stepik.org/users/792428">Stepic</a>
       </td>
     </tr>
 </table>
