@@ -177,6 +177,36 @@
         <br>telegram: @AlexeySeleznev
       </td>
     </tr>
+    <tr>
+     <table>
+    <tr>
+      <td>
+        <a href="https://selesnow.github.io/ryandexdirect/">ryandexdirect</a>
+      </td>
+      <td>
+        <a href="https://selesnow.github.io/rfacebookstat/">rfacebookstat</a>
+      </td>
+      <td>
+        <a href="https://selesnow.github.io/rvkstat/">rvkstat</a>
+      </td>
+      <td>
+        <a href="https://selesnow.github.io/rmytarget/">rmytarget</a>
+      </td>
+      <td>
+        <a href="https://selesnow.github.io/rmixpanel/">rmixpanel</a>
+      </td>
+      <td>
+        <a href="https://selesnow.github.io/getProxy/">getProxy</a>
+      </td>
+      <td>
+        <a href="https://selesnow.github.io/rGitHub/">rGitHub</a>
+      </td>
+      <td>
+        <a href="https://selesnow.github.io/news/">NEWS</a>
+      </td>
+    </tr>
+</table>
+    </tr>
 </table>
 
  <p align="center">
