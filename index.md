@@ -60,6 +60,12 @@
 
 Все функции пакета предназначены для работы с API v3 GitHub.
 
+## Ссылки
+* [Документация](https://selesnow.github.io/rGitHub/)
+* [Отчёт об ошибках и доработках](https://github.com/selesnow/rGitHub/issues)
+* [Список релизов](https://github.com/selesnow/rGitHub/releases)
+* [Группа в Вконтакте](https://vk.com/data_club)
+
 ## Содержание ReadMe
 
 + [Установка пакета rGitHub.](https://github.com/selesnow/rGitHub/blob/master/README.md#Установка-пакета-rgithub)
