@@ -28,7 +28,8 @@ function(user = NULL, token = NULL, type = 'owner'){
                        stargazers_count = as.integer(),
                        watchers_count = as.integer(),
                        forks_count = as.integer(),
-                       open_issues_count = as.integer())
+                       open_issues_count = as.integer(),
+                       fork = as.logical())
   
   ##Get data from list to data frame
   for(i in 1:length(dataRaw)){
@@ -47,7 +48,8 @@ function(user = NULL, token = NULL, type = 'owner'){
                           stargazers_count = as.integer(dataRaw[[i]]$stargazers_count),
                           watchers_count = as.integer(dataRaw[[i]]$watchers_count),
                           forks_count = as.integer(dataRaw[[i]]$forks_count),
-                          open_issues_count = as.integer(dataRaw[[i]]$open_issues_count))
+                          open_issues_count = as.integer(dataRaw[[i]]$open_issues_count),
+                          fork = dataRaw[[i]]$fork)
       
     result <- rbind(result, temp_df)}
   
