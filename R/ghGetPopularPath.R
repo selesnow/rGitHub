@@ -5,9 +5,10 @@ function(user = NULL, repos = NULL, token = NULL){
     stop("All arguments user, repos and token are requre.")
   }
   #Prepare query
-  query <- paste0("https://api.github.com/repos/",user,"/",repos,"/traffic/popular/paths?access_token=", token)
+  #query <- paste0("https://api.github.com/repos/",user,"/",repos,"/traffic/popular/paths?access_token=", token)
   #Send query
-  ans <- GET(query)
+  ans <- GET(str_glue("https://api.github.com/repos/{user}/{repos}/traffic/popular/paths"), 
+             add_headers(Authorization = str_glue('token {token}')))
   #Check answer
   stop_for_status(ans)
   #Parsed query
