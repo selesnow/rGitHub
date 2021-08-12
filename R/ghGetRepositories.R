@@ -1,13 +1,14 @@
 ghGetRepositories <-
-function(user = NULL, token = NULL){
+function(user = NULL, token = NULL, type = 'owner'){
   #Check arguments
   if(is.null(user) | is.null(token)){
     stop("All arguments user and token are requre.")
   }
-  #Prepare query
-  query <- paste0("https://api.github.com/users/",user,"/repos?access_token=", token)
+  
   #Send query
-  ans <- GET(query)
+    ans <- GET(str_glue("https://api.github.com/users/{user}/repos"), 
+             query = list(type = type),
+             add_headers(Authorization = str_glue('token {token}')))
   #Check answer
   stop_for_status(ans)
   #Parsed query
