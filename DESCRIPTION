@@ -1,8 +1,8 @@
 Package: rGitHub
 Type: Package
 Title: Get data from GitHub API v.3
-Version: 1.0
-Date: 2017-06-22
+Version: 1.1
+Date: 2021-08-12
 Author: Alexey Seleznev
 Description: With rGitHub package you can get data by views, unique views, repositories, popular path and refferals from GitHub API in R.
 License: Free
