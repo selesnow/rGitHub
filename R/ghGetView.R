@@ -5,9 +5,10 @@ if(is.null(user) | is.null(repos) | is.null(token)){
   stop("All arguments user, repos and token are requre.")
 }
 #Prepare query
-query <- paste0("https://api.github.com/repos/",user,"/",repos,"/traffic/views?access_token=", token)
+#query <- paste0("https://api.github.com/repos/",user,"/",repos,"/traffic/views?access_token=", token)
 #Send query
-ans <- GET(query)
+ans <- GET(str_glue("https://api.github.com/repos/{user}/{repos}/traffic/views"),
+          add_headers(Authorization = str_glue('token {token}')))
 #Check answer
 stop_for_status(ans)
 #Parsed query
