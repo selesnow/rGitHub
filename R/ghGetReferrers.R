@@ -16,7 +16,7 @@ function(user = NULL, repos = NULL, token = NULL){
   #Create result DF
   result <- data.frame(referrer = as.character(), views = as.integer(), uniques = as.integer())
   #Get data from list to data frame
-  for(i in 1:length(dataRaw)){
+  for(i in seq_len(length(dataRaw))){
     
     temp_df <- data.frame(referrer = as.character(dataRaw[[i]]$referrer),
                           views = as.integer(dataRaw[[i]]$count),
@@ -26,3 +26,4 @@ function(user = NULL, repos = NULL, token = NULL){
   
   return(result)
 }
+
